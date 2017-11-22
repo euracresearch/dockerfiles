@@ -1,0 +1,4 @@
+To build this image you first need to build the caddyserver and then copy the
+binary `caddy` into this directory.
+
+Building caddy: https://github.com/mholt/caddy/wiki/Plugging-in-Plugins-Yourself
