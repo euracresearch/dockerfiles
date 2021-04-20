@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 RUN apk update 
-RUN apk add apache2 php5-apache2 php5-mysqli php5-gd php5-curl php5-dom php5-zip php5-mcrypt php5-openssl php5-json php5-xmlreader --no-cache  
+RUN apk add apache2 php8-apache2 php8-mysqli php8-fileinfo php8-session php8-gd php8-curl php8-dom php8-zip php8-openssl php8-json php8-xmlreader --no-cache  
 
 RUN mkdir -p /run/apache2
 RUN echo "ServerName localhost" >> /etc/apache2/httpd.conf 
