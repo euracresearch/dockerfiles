@@ -1,5 +1,5 @@
 appname := alpine-httpd-php
-version := 2.8
+version := 2.8.1
 
 all: build
 
